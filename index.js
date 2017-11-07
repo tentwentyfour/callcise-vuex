@@ -1,5 +1,8 @@
 const { Optional } = require('lonad');
 const { pipe }     = require('ramda');
+const Callcise     = require('callcise');
+
+const evaluate = Callcise.internal.evaluate;
 
 const namespacedVuexInvokers = (optionalNamespace = Optional.None()) => {
   /*
