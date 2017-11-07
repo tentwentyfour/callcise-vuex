@@ -1,0 +1,31 @@
+{
+  "name": "callcise-vuex",
+  "version": "1.0.0",
+  "description": "VueX extension to callcise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tentwentyfour/callcise-vuex.git"
+  },
+  "keywords": [
+    "callback",
+    "concise",
+    "vuex"
+  ],
+  "author": "Florian Simon <florian@tentwentyfour.lu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentwentyfour/callcise-vuex/issues"
+  },
+  "homepage": "https://github.com/tentwentyfour/callcise-vuex#readme",
+  "dependencies": {
+    "lonad": "0.0.30",
+    "ramda": "^0.25.0"
+  },
+  "peerDependencies": {
+    "callcise": "^1.0.1"
+  }
+}
