@@ -1,6 +1,6 @@
 {
   "name": "callcise-vuex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "VueX extension to callcise",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tentwentyfour/callcise-vuex#readme",
   "dependencies": {
-    "lonad": "0.0.30",
+    "lonad": "0.0.34",
     "ramda": "^0.25.0"
   },
   "peerDependencies": {
