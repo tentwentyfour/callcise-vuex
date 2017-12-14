@@ -1,6 +1,6 @@
 const { Optional } = require('lonad');
-const { pipe }     = require('ramda');
 const Callcise     = require('callcise');
+const pipe         = require('lodash.flow');
 
 const evaluate = Callcise.internal.evaluate;
 
