@@ -1,6 +1,6 @@
 {
   "name": "callcise-vuex",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "VueX extension to callcise",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/tentwentyfour/callcise-vuex#readme",
   "dependencies": {
     "lodash.flow": "^3.5.0",
-    "lonad": "0.0.34"
+    "lonad": "0.0.36"
   },
   "peerDependencies": {
     "callcise": "^1.0.1"
