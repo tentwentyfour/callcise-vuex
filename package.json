@@ -1,6 +1,6 @@
 {
   "name": "callcise-vuex",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "VueX extension to callcise",
   "main": "index.js",
   "scripts": {
