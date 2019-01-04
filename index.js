@@ -23,8 +23,8 @@ const namespacedVuexInvokers = (optionalNamespace = Optional.None()) => {
   function vuexState(propertyName) {
     return function retrieve() {
       return optionalNamespace
-      .map(namespace => this.$store[namespace])
-      .recover(() => this.$store)
+      .map(namespace => this.$store.state[namespace])
+      .recover(() => this.$store.state)
       .property(propertyName)
       .get();
     };
