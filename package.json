@@ -23,7 +23,7 @@
   "homepage": "https://github.com/tentwentyfour/callcise-vuex#readme",
   "dependencies": {
     "lodash.flow": "^3.5.0",
-    "lonad": "0.0.36"
+    "lonad": "^0.2.0"
   },
   "peerDependencies": {
     "callcise": "^1.0.1"
